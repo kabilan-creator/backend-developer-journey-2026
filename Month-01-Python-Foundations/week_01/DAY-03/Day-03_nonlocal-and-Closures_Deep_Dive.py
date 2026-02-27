@@ -41,7 +41,7 @@ result = removeElement([3, 2, 2, 3], 3)
 print(result)  # Output: (2, [2, 2, 2, 3])
 
 # Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-# insert search
+# search insert position problem
 def insertsearch(nums,target):
     for i in range(len(nums)):
         if nums[i]>=target:
@@ -50,6 +50,8 @@ def insertsearch(nums,target):
 
 print(insertsearch([1,3,5,6],5))  # Output: 2
 
+# Given a non-empty array of digits representing a non-negative integer, increment one to the integer. The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit. You may assume the integer does not contain any leading zero, except the number 0 itself.
+# one plus problem
 
 class solution:
     
