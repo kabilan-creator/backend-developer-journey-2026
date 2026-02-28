@@ -9,7 +9,6 @@ Today I learned about **Inner Functions** in Python.
 - It behaves like a private helper function.
 
 ---
-
 ## 🧠 Key Understanding
 
 - `inner()` exists only inside `outer()`.
