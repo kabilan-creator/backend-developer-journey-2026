@@ -21,7 +21,8 @@ def example_function():
     
 print(example_function())
 
-#merge two sorted arrays
+#merge two sorted arrays 
+#revesered two pointer approach
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
 
