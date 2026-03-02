@@ -22,7 +22,7 @@ print(admin_function())
 
 # proble solving
 # Given an array of prices where prices[i] is the price of a given stock on the ith day, find the maximum profit you can achieve. You may complete at most one transaction (i.e., buy one and sell one share of the stock). Note that you cannot sell a stock before you buy one.
-# method : array pointer approach
+# method : greedy approach
 def price(prices):
     max_p = 0
     min = float('inf')
